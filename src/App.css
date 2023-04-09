@@ -1,0 +1,101 @@
+.out-btn-container {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+}
+
+.send-container {
+  position: fixed;
+  bottom: 0;
+  left: calc(50vw - 35rem/2);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 30rem;
+}
+
+@media screen and (max-width: 600px) {
+  .input {
+    width: 10rem;
+  }
+
+  .send-container {
+    left: calc(50vw - 15rem/2);
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .input {
+    width: 20rem;
+  }
+
+  .send-container {
+    left: calc(50vw - 26rem/2);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .input {
+    width: 12rem;
+  }
+
+  .send-container {
+    left: calc(50vw - 18rem/2);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .input {
+    width: 6rem;
+  }
+
+  .send-container {
+    left: calc(50vw - 10rem/2);
+  }
+}
+
+.msgs-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.msg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: start;
+}
+
+.user-msg {
+  justify-content: end;
+  flex-direction: row-reverse;
+}
+
+.msg p {
+  padding: 0.5rem 0.8rem;
+  border-radius: 12px;
+  border-color: transparent;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  max-width: 75%;
+}
+
+.user-msg p {
+  background-color: rgb(99, 239, 246);
+}
+
+.msg img {
+  border-radius: 50%;
+  width: 35px;
+  margin-right: 1rem;
+}
+
+.user-msg img {
+  margin-right: 0;
+  margin-left: 1rem;
+}
