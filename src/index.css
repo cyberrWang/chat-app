@@ -26,3 +26,8 @@ main {
     width: 90%;
   }
 }
+
+h2 {
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
