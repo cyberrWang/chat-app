@@ -4,6 +4,13 @@
   top: 1rem;
 }
 
+.signIn-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+}
+
 .send-container {
   position: fixed;
   bottom: 0;
